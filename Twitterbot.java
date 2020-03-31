@@ -7,8 +7,9 @@ import twitter4j.TwitterFactory;
 
 public class Twitterbot {
 
-    public static void main(String[] args) {
-                   NewTweet();
+    public static void main(String[] args) 
+    {
+         NewTweet();
     }
        
         public static void NewTweet(){
