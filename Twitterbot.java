@@ -12,7 +12,8 @@ public class Twitterbot {
          NewTweet();
     }
        
-        public static void NewTweet(){
+        public static void NewTweet()
+        {
             Twitter twitter = TwitterFactory.getSingleton();
             String mytweet="Hello, this UPES DevOps Bot";
             try
