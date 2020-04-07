@@ -1,2 +1,6 @@
 # Tweet-Bot
-> A twitter bot is made which is going to tweet, retweet , like and comment on particulars, using JAVA
+### A twitter bot is made which is going to have functionality like
+*.  tweet retweet 
+*.  like  
+*.  comment on particulars
+*. showing the latest timeline using JAVA
