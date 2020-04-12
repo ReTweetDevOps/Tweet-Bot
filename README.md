@@ -7,3 +7,5 @@
 3. comment on particulars
 
 4. showing the latest timeline using JAVA
+
+5. get particular tweets
