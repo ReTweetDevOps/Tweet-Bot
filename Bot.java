@@ -13,10 +13,11 @@ public class Bot{
     {
          NewTweet();
         gettimline();
+        gettweet();
     }
        
         public static void NewTweet()
-        {   //maikng a tweet from your account
+        {   //making a tweet from your account
             Twitter twitter = TwitterFactory.getSingleton();
             String mytweet="Hello, this UPES DevOps Bot";
             try
@@ -44,4 +45,23 @@ public class Bot{
             System.exit(-1);
         }
          }
+     public static void gettweet(){
+         Twitter twitter = new TwitterFactory().getInstance();
+        try {
+            Query query = new Query("#DevOpsAtUPES");
+            QueryResult result;
+            do {
+                result = twitter.search(query);
+                List<Status> tweets = result.getTweets();
+                for (Status tweet : tweets) {
+                    System.out.println("@" + tweet.getUser().getScreenName() + " - " + tweet.getText());
+                }
+            } while ((query = result.nextQuery()) != null);
+            System.exit(0);
+        } catch (TwitterException te) {
+            te.printStackTrace();
+            System.out.println("Failed to search tweets: " + te.getMessage());
+            System.exit(-1);
+        }
+     }
 }
