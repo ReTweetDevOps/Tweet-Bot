@@ -48,7 +48,7 @@ public class Bot{
      public static void gettweet(){
          Twitter twitter = new TwitterFactory().getInstance();
         try {
-            Query query = new Query("#DevOpsAtUPES");
+            Query query = new Query("#DevOpsAtUPES");//searching for tweets
             QueryResult result;
             do {
                 result = twitter.search(query);
