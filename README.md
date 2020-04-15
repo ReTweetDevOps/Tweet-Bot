@@ -1,12 +1,12 @@
 # Tweet-Bot
-### A twitter bot (client type ) is made which is going to have functionality like
+### A twitter bot (client type ) is made using JAVA which is going to have functionality like
 - [x] Tweet
 
 - [ ] Like
 
 - [ ] Comment 
 
-- [x] Showing the latest timeline using JAVA
+- [x] Showing the latest timeline 
 
 - [x] Get particular tweets
  
