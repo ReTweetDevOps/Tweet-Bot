@@ -4,7 +4,7 @@
 
 - [ ] Like
 
-- [ ] Comment on particulars
+- [ ] Comment 
 
 - [x] Showing the latest timeline using JAVA
 
