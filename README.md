@@ -12,6 +12,6 @@
  
 - [ ] Retweet
 
-## How to contribute
+### How to contribute
 
 It is an open source project you are free to contribute , you can use the following way to contribute.
