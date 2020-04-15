@@ -10,7 +10,7 @@
 
 - [x] Get particular tweets
  
-- [ ] Retweet
+- [x] Retweet
 
 ## How to contribute
 
