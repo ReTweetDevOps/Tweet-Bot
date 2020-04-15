@@ -1,6 +1,6 @@
 # Tweet-Bot
 ### A twitter bot (client type ) is made which is going to have functionality like
-1.  tweet - [x]
+- [x] tweet
 
 2.  like
 
