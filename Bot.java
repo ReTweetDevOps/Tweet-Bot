@@ -54,7 +54,14 @@ public class Bot{
                 result = twitter.search(query);
                 List<Status> tweets = result.getTweets();
                 for (Status tweet : tweets) {
-                    System.out.println("@" + tweet.getUser().getScreenName() + " - " + tweet.getText());
+                    long Id = tweet.getId();
+                //  System.out.println("@" + tweet.getUser().getScreenName() + " - " + tweet.getText()+" "+"tweet id:"+ Id);
+            //  twitter.retweetStatus(Id);
+             
+             twitter.retweetStatus(Id);
+              
+                    //retweetStatus(Id);
+              
                 }
             } while ((query = result.nextQuery()) != null);
             System.exit(0);
@@ -64,4 +71,8 @@ public class Bot{
             System.exit(-1);
         }
      }
+        public static  Status retweetStatus(long Id) throws TwitterException {
+         Twitter twitter = new TwitterFactory().getInstance();
+  return twitter.retweetStatus(Id);
+}
 }
