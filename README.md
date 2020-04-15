@@ -1,5 +1,5 @@
 # Tweet-Bot
-### A twitter bot (client type ) is made using JAVA which is going to have functionality like
+## A twitter bot (client type ) is made using JAVA which is going to have functionality like
 - [x] Tweet
 
 - [ ] Like
@@ -12,7 +12,7 @@
  
 - [ ] Retweet
 
-### How to contribute
+## How to contribute
 
 It is an open source project you are free to contribute , you can use the following way to contribute.
 
@@ -47,7 +47,7 @@ $ git push -u origin branchname
 ```
 7. Create a pull request to the upstream repository.
 
-# Synchronize forked repository with Upstream repository
+## Synchronize forked repository with Upstream repository
 
 1. Create upstream as our repository
 ```
