@@ -1,13 +1,13 @@
 # Tweet-Bot
 ### A twitter bot (client type ) is made which is going to have functionality like
-- [x] tweet
+- [x] Tweet
 
-- []  like
+- [ ] Like
 
-- [] comment on particulars
+- [ ] Comment on particulars
 
--[x]  showing the latest timeline using JAVA
+- [x] Showing the latest timeline using JAVA
 
--[x]  get particular tweets
-
--[x]  retweet
+- [x] Get particular tweets
+ 
+- [x] Retweet
