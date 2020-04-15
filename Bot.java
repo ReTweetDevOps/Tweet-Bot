@@ -58,7 +58,7 @@ public class Bot{
                 //  System.out.println("@" + tweet.getUser().getScreenName() + " - " + tweet.getText()+" "+"tweet id:"+ Id);
             //  twitter.retweetStatus(Id);
              
-             twitter.retweetStatus(Id);
+             twitter.retweetStatus(Id);//retweet type1
               
                     //retweetStatus(Id);
               
@@ -71,7 +71,7 @@ public class Bot{
             System.exit(-1);
         }
      }
-        public static  Status retweetStatus(long Id) throws TwitterException {
+        public static  Status retweetStatus(long Id) throws TwitterException {//retweet type 2
          Twitter twitter = new TwitterFactory().getInstance();
   return twitter.retweetStatus(Id);
 }
