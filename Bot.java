@@ -10,10 +10,11 @@ import twitter4j.*;
 public class Bot{
 
     public static void main(String[] args) 
-    {
+    {  //call the function which you want
          NewTweet();
         gettimline();
         gettweet();
+        reply();
     }
        
         public static void NewTweet()
@@ -75,4 +76,20 @@ public class Bot{
          Twitter twitter = new TwitterFactory().getInstance();
   return twitter.retweetStatus(Id);
 }
+    
+    public static void reply(){
+         Twitter twitter = TwitterFactory.getSingleton();
+            
+        try {
+    long inReplyToStatusId = 1252942945612775425l;                         
+    StatusUpdate statusUpdate = new StatusUpdate("Bot replying to my tweet attempt");   // that message which you want to reply
+    statusUpdate.inReplyToStatusId(inReplyToStatusId);
+    Status status = twitter.updateStatus(statusUpdate);
+    System.out.println("Successfully updated the status to [" + status.getText() + "].");
+    
+     }
+  catch(TwitterException e) {
+      System.err.println("Send tweet: " + e + " Status code: " + e.getStatusCode());
+  }
+     }
 }
