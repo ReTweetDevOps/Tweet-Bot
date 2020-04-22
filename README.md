@@ -2,9 +2,9 @@
 ## A twitter bot (client type ) is made using JAVA which is going to have functionality like
 - [x] Tweet
 
-- [ ] Like
+- [ ] Like 
 
-- [ ] Comment 
+- [x] reply to a tweet 
 
 - [x] Showing the latest timeline 
 
